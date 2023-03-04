@@ -1,0 +1,120 @@
+local transf = require "transf"
+local ParamBuilder = require "parambuilder_v1_1"
+local constructionutil = require "constructionutil"
+local positionx = ParamBuilder.Slider("offsetx", _("offset x-axis"), ParamBuilder.rangeSymm(1,0.01), 1/0.01, _("jrm_param_offsetx_tooltip") )
+local model_icons = {
+						"ui/models_20/vehicle/waggon/shimmns708/shimmns708_axbenet@2x.tga",
+						"ui/models_20/vehicle/waggon/shimmns708/shimmns708_db@2x.tga",
+						"ui/models_20/vehicle/waggon/shimmns708/shimmns708_db2@2x.tga",
+						"ui/models_20/vehicle/waggon/shimmns708/shimmns708_db3@2x.tga",
+						"ui/models_20/vehicle/waggon/shimmns708/shimmns708_db4@2x.tga",
+						"ui/models_20/vehicle/waggon/shimmns708/shimmns708_dbCargo@2x.tga",
+						"ui/models_20/vehicle/waggon/shimmns708/shimmns708_dbRailship@2x.tga",
+						"ui/models_20/vehicle/waggon/shimmns708/shimmns708_dbRailshipAlt@2x.tga",
+						"ui/models_20/vehicle/waggon/shimmns708/shimmns708_delacher@2x.tga",
+						"ui/models_20/vehicle/waggon/shimmns708/shimmns708_dr@2x.tga",
+						"ui/models_20/vehicle/waggon/shimmns708/shimmns708_fsAlt@2x.tga",
+						"ui/models_20/vehicle/waggon/shimmns708/shimmns708_fsModern@2x.tga",
+						"ui/models_20/vehicle/waggon/shimmns708/shimmns708_fsNeu@2x.tga",
+						"ui/models_20/vehicle/waggon/shimmns708/shimmns708_nacco@2x.tga",
+						"ui/models_20/vehicle/waggon/shimmns708/shimmns708_ns@2x.tga",
+						"ui/models_20/vehicle/waggon/shimmns708/shimmns708_obb@2x.tga",
+						"ui/models_20/vehicle/waggon/shimmns708/shimmns708_railCargoAustria@2x.tga",
+						"ui/models_20/vehicle/waggon/shimmns708/shimmns708_railCargoAustriaEx@2x.tga",
+						"ui/models_20/vehicle/waggon/shimmns708/shimmns708_sbb@2x.tga",
+						"ui/models_20/vehicle/waggon/shimmns708/shimmns708_sbbAlt@2x.tga",
+						"ui/models_20/vehicle/waggon/shimmns708/shimmns708_sj@2x.tga",
+						"ui/models_20/vehicle/waggon/shimmns708/shimmns708_twa@2x.tga",
+						"ui/models_20/vehicle/waggon/shimmns708/shimmns708_twaAlt@2x.tga",
+						"ui/models_20/vehicle/waggon/sfhimmns/shfimmns_gers@2x.tga",
+						"ui/models_20/vehicle/waggon/sfhimmns/shfimmns_tiphook@2x.tga",
+						"ui/models_20/vehicle/waggon/sfhimmns/shfimmns_tiphook2@2x.tga",
+						"ui/models_20/vehicle/waggon/sfhimmns/shfimmns_vtg@2x.tga",
+						"ui/models_20/vehicle/waggon/sfhimmns/shfimmns_vtg02@2x.tga",
+					}
+local model_values = {
+						"asset/shimmns708_asset/shimmns708_axbenet.mdl",
+						"asset/shimmns708_asset/shimmns708_db.mdl",
+						"asset/shimmns708_asset/shimmns708_db2.mdl",
+						"asset/shimmns708_asset/shimmns708_db3.mdl",
+						"asset/shimmns708_asset/shimmns708_db4.mdl",
+						"asset/shimmns708_asset/shimmns708_dbCargo.mdl",
+						"asset/shimmns708_asset/shimmns708_dbRailship.mdl",
+						"asset/shimmns708_asset/shimmns708_dbRailshipAlt.mdl",
+						"asset/shimmns708_asset/shimmns708_delacher.mdl",
+						"asset/shimmns708_asset/shimmns708_dr.mdl",
+						"asset/shimmns708_asset/shimmns708_fsAlt.mdl",
+						"asset/shimmns708_asset/shimmns708_fsModern.mdl",
+						"asset/shimmns708_asset/shimmns708_fsNeu.mdl",
+						"asset/shimmns708_asset/shimmns708_nacco.mdl",
+						"asset/shimmns708_asset/shimmns708_ns.mdl",
+						"asset/shimmns708_asset/shimmns708_obb.mdl",
+						"asset/shimmns708_asset/shimmns708_railCargoAustria.mdl",
+						"asset/shimmns708_asset/shimmns708_railCargoAustriaEx.mdl",
+						"asset/shimmns708_asset/shimmns708_sbb.mdl",
+						"asset/shimmns708_asset/shimmns708_sbbAlt.mdl",
+						"asset/shimmns708_asset/shimmns708_sj.mdl",
+						"asset/shimmns708_asset/shimmns708_twa.mdl",
+						"asset/shimmns708_asset/shimmns708_twaAlt.mdl",
+						"asset/sfhimmns_asset/shfimmns_gers.mdl",
+						"asset/sfhimmns_asset/shfimmns_tiphook.mdl",
+						"asset/sfhimmns_asset/shfimmns_tiphook2.mdl",
+						"asset/sfhimmns_asset/shfimmns_vtg.mdl",
+						"asset/sfhimmns_asset/shfimmns_vtg02.mdl",
+					}
+local assetmodel = ParamBuilder.IconButton("type_param", _("vehicle"), model_icons, model_values, 1, _("jrm_param_type_tooltip") )
+
+function data()
+
+return { 
+	type = "ASSET_TRACK",
+	description = {
+			name = _("mod_name"),
+	},
+	availability =
+	{
+			yearFrom = 1978,
+			yearTo = 0,
+	},
+	buildMode = "MULTI",
+	categories = { "tracks", "jays_mods" },
+	order = -2046867593,
+	skipCollision = true,
+	autoRemovable = false,
+	params = {
+		{
+			key = "position",
+			name = _("height"),
+			uiType = "BUTTON",
+			values = { _("ground"), _("rail") },
+			tooltip = _("height_tooltip"),
+			defaultIndex = 1,
+		},
+		positionx.params,
+		assetmodel.params,
+	},
+	updateFn = function(params)
+		local trax = positionx.getValue(params)
+		local height = 0
+		if params.position == 1 then
+			height = 1.05
+		end
+		
+	local result = { }
+	result.models = { }
+
+	table.insert(result.models, {
+		id = assetmodel.getValue(params),
+		transf = constructionutil.rotateTransf(params, { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, trax, 0, height, 1 }),
+	} )	
+
+		result.terrainAlignmentLists = { {
+			type = "EQUAL",
+			faces =  { }
+		} }
+
+		return result
+	end		
+}
+
+end

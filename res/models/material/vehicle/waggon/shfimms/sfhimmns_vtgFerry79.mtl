@@ -1,0 +1,82 @@
+function data()
+return {
+	__version = "",
+	order = 0,
+	params = {
+		albedo_scale = {
+			albedoScale = { 1, 1, 1, },
+		},
+		color_blend = {
+			albedoScales = { 0, },
+			colors = {
+				{ 0, 0, 0, },
+			},
+		},
+		dirt_rust = {
+			age = 0,
+			dirtColor = { 0.16862744092941, 0.14996199309826, 0.13622452318668, },
+			dirtOpacity = 0.14000000059605,
+			dirtScale = 0.85000002384186,
+			rustColor = { 0.53725492954254, 0.46228504180908, 0.30128416419029, },
+			rustOpacity = 0,
+			rustScale = 1,
+		},
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_albedo = {
+			fileName = "models/vehicle/shfimmns/shfimmns_vtg.dds",
+			type = "TWOD",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+		},
+		map_cblend_dirt_rust = {
+			fileName = "models/vehicle/shimmns/sfhimmns_dca.dds",
+			type = "TWOD",
+		},
+		map_dirt = {
+			fileName = "models/vehicle/dirt_albedo.dds",
+			type = "TWOD",
+		},
+		map_dirt_normal = {
+			fileName = "models/vehicle/dirt_normal.dds",
+			redGreen = true,
+			type = "TWOD",
+		},
+		map_metal_gloss_ao = {
+			fileName = "models/vehicle/shfimmns/shfimmns_mga.dds",
+			type = "TWOD",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+		},
+		map_normal = {
+			fileName = "models/vehicle/shfimmns/shfimmns_nrml.dds",
+			redGreen = true,
+			type = "TWOD",
+		},
+		map_rust = {
+			fileName = "models/vehicle/rust_albedo.dds",
+			type = "TWOD",
+		},
+		map_rust_normal = {
+			fileName = "models/vehicle/rust_normal.dds",
+			redGreen = true,
+			type = "TWOD",
+		},
+		normal_scale = {
+			normalScale = 1,
+		},
+		polygon_offset = {
+			factor = 0,
+			forceDepthWrite = false,
+			units = 0,
+		},
+		two_sided = {
+			flipNormal = true,
+			twoSided = false,
+		},
+	},
+	type = "PHYSICAL_NRML_MAP_CBLEND_DIRT",
+}
+end
