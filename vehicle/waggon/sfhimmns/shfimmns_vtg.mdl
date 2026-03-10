@@ -328,7 +328,7 @@ return {
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				},
 				visibleFrom = 0,
-				visibleTo = 25,
+				visibleTo = 150,
 			},
 			{ 
 				node = { 
@@ -645,7 +645,7 @@ return {
 					name = "RootNode",
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				},
-				visibleFrom = 25,
+				visibleFrom = 150,
 				visibleTo = 80.01788330078125,
 			},
 			{ 
@@ -1227,8 +1227,8 @@ return {
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/shfimmns_haubeLOW_lod3.msh",
-							name = "shfimmns_haubeLOW",
+							mesh = "msh/shfimmns_haube_low_lod3.msh",
+							name = "shfimmns_haube_low",
 							transf = { 1.2447431087493896484375, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0.940132796764373779296875, 0, 0, 0, 0, 1, },
 						},
 						{ 
