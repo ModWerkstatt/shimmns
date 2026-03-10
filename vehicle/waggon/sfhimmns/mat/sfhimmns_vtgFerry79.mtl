@@ -1,6 +1,6 @@
 function data()
 return { 
-		__version = "",
+		_version = "",
 		order = 0,
 		params = { 
 			color_blend = { 
@@ -37,7 +37,7 @@ return {
 			map_albedo = { 
 				fragmentSamplers = { 
 					albedoTex = { 
-						fileName = "/vehicle/shfimmns/mat/tex/shfimmns_vtg.dds",
+						fileName = "tex/shfimmns_vtg.dds",
 						type = "TWOD",
 						wrapS = "REPEAT",
 						wrapT = "REPEAT",
@@ -47,7 +47,7 @@ return {
 			map_cblend_dirt_rust = { 
 				fragmentSamplers = { 
 					cblendDirtRustTex = { 
-						fileName = "/vehicle/shimmns/mat/tex/sfhimmns_dca.dds",
+						fileName = "tex/sfhimmns_dca.dds",
 						type = "TWOD",
 					},
 				},
@@ -72,7 +72,7 @@ return {
 			map_metal_gloss_ao = { 
 				fragmentSamplers = { 
 					metalGlossAoTex = { 
-						fileName = "/vehicle/shfimmns/mat/tex/shfimmns_mga.dds",
+						fileName = "tex/shfimmns_mga.dds",
 						type = "TWOD",
 						wrapS = "REPEAT",
 						wrapT = "REPEAT",
@@ -82,7 +82,7 @@ return {
 			map_normal = { 
 				fragmentSamplers = { 
 					normalTex = { 
-						fileName = "/vehicle/shfimmns/mat/tex/shfimmns_nrml.dds",
+						fileName = "tex/shfimmns_normal.dds",
 						redGreen = true,
 						type = "TWOD",
 					},
