@@ -109,86 +109,86 @@ return {
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_untersatz_lod0.msh",
-							name = "jay_mesh_shfimmns_untersatz",
+							mesh = "msh/shfimmns_untersatz_lod0.msh",
+							name = "shfimmns_untersatz",
 							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, -0.0199999995529651641845703125, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_front_klein_lod0.msh",
-							name = "jay_mesh_shfimmns_front_klein",
+							mesh = "msh/shfimmns_front_klein_lod0.msh",
+							name = "shfimmns_front_klein",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_front_unten_lod0.msh",
-							name = "jay_mesh_shfimmns_front_unten",
+							mesh = "msh/shfimmns_front_unten_lod0.msh",
+							name = "shfimmns_front_unten",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_kupplung_lod0.msh",
-							name = "jay_mesh_shfimmns_kupplung",
+							mesh = "msh/shfimmns_kupplung_lod0.msh",
+							name = "shfimmns_kupplung",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_puffer_lod0.msh",
-							name = "jay_mesh_shfimmns_puffer",
+							mesh = "msh/shfimmns_puffer_lod0.msh",
+							name = "shfimmns_puffer",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_puffer_platten_lod0.msh",
-							name = "jay_mesh_shfimmns_puffer_platten",
+							mesh = "msh/shfimmns_puffer_platten_lod0.msh",
+							name = "shfimmns_puffer_platten",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_seilhaken_lod0.msh",
-							name = "jay_mesh_shfimmns_seilhaken",
+							mesh = "msh/shfimmns_seilhaken_lod0.msh",
+							name = "shfimmns_seilhaken",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_hebel_lod0.msh",
-							name = "jay_mesh_shfimmns_hebel",
+							mesh = "msh/shfimmns_hebel_lod0.msh",
+							name = "shfimmns_hebel",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_stangen_lod0.msh",
-							name = "jay_mesh_shfimmns_stangen",
+							mesh = "msh/shfimmns_stangen_lod0.msh",
+							name = "shfimmns_stangen",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_offner_klein_lod0.msh",
-							name = "jay_mesh_shfimmns_offner_klein",
+							mesh = "msh/shfimmns_offner_klein_lod0.msh",
+							name = "shfimmns_offner_klein",
 							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_schiene_lod0.msh",
-							name = "jay_mesh_shfimmns_schiene",
+							mesh = "msh/shfimmns_schiene_lod0.msh",
+							name = "shfimmns_schiene",
 							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, -0.039999999105930328369140625, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_accecs_lod0.msh",
-							name = "jay_mesh_shfimmns_accecs",
+							mesh = "msh/shfimmns_accecs_lod0.msh",
+							name = "shfimmns_accecs",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_seilOesen_lod0.msh",
-							name = "jay_mesh_shfimmns_seilOesen",
+							mesh = "msh/shfimmns_seilOesen_lod0.msh",
+							name = "shfimmns_seilOesen",
 							transf = { 0.9900000095367431640625, 0, 0, 0, -0, 0.9900000095367431640625, 0, 0, 0, -0, 0.86000001430511474609375, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_innen_lod0.msh",
-							name = "jay_mesh_shfimmns_innen",
+							mesh = "msh/shfimmns_innen_lod0.msh",
+							name = "shfimmns_innen",
 							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, -0.20000000298023223876953125, 1, },
 						},
 						{ 
@@ -196,33 +196,33 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube01.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube01.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube01.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube01.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_haube01_lod0.msh",
-							name = "jay_mesh_shfimmns_haube01",
+							mesh = "msh/shfimmns_haube01_lod0.msh",
+							name = "shfimmns_haube01",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -230,63 +230,63 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube02.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube02.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube02.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube02.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_haube02_lod0.msh",
-							name = "jay_mesh_shfimmns_haube02",
+							mesh = "msh/shfimmns_haube02_lod0.msh",
+							name = "shfimmns_haube02",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_haube03_lod0.msh",
-							name = "jay_mesh_shfimmns_haube03",
+							mesh = "msh/shfimmns_haube03_lod0.msh",
+							name = "shfimmns_haube03",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_offner_gross_lod0.msh",
-							name = "jay_mesh_shfimmns_offner_gross",
+							mesh = "msh/shfimmns_offner_gross_lod0.msh",
+							name = "shfimmns_offner_gross",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_daten_raster_lod0.msh",
-							name = "jay_mesh_shfimmns_daten_raster",
+							mesh = "msh/shfimmns_daten_raster_lod0.msh",
+							name = "shfimmns_daten_raster",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_front_gross_lod0.msh",
-							name = "jay_mesh_shfimmns_front_gross",
+							mesh = "msh/shfimmns_front_gross_lod0.msh",
+							name = "shfimmns_front_gross",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_schlauch_lod0.msh",
-							name = "jay_mesh_shfimmns_schlauch",
+							mesh = "msh/shfimmns_schlauch_lod0.msh",
+							name = "shfimmns_schlauch",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -294,33 +294,33 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_schildFerry.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_schildFerry.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_schildFerry.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_schildFerry.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_schildFerry.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_schildFerry.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_schildFerry.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_schildFerry.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_schildFerry_lod0.msh",
-							name = "jay_mesh_shfimmns_schildFerry",
+							mesh = "msh/shfimmns_schildFerry_lod0.msh",
+							name = "shfimmns_schildFerry",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -427,86 +427,86 @@ return {
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_untersatz_lod0.msh",
-							name = "jay_mesh_shfimmns_untersatz",
+							mesh = "msh/shfimmns_untersatz_lod0.msh",
+							name = "shfimmns_untersatz",
 							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, -0.0199999995529651641845703125, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_front_klein_lod0.msh",
-							name = "jay_mesh_shfimmns_front_klein",
+							mesh = "msh/shfimmns_front_klein_lod0.msh",
+							name = "shfimmns_front_klein",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_front_unten_lod0.msh",
-							name = "jay_mesh_shfimmns_front_unten",
+							mesh = "msh/shfimmns_front_unten_lod0.msh",
+							name = "shfimmns_front_unten",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_kupplung_lod0.msh",
-							name = "jay_mesh_shfimmns_kupplung",
+							mesh = "msh/shfimmns_kupplung_lod0.msh",
+							name = "shfimmns_kupplung",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_puffer_lod0.msh",
-							name = "jay_mesh_shfimmns_puffer",
+							mesh = "msh/shfimmns_puffer_lod0.msh",
+							name = "shfimmns_puffer",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_puffer_platten_lod0.msh",
-							name = "jay_mesh_shfimmns_puffer_platten",
+							mesh = "msh/shfimmns_puffer_platten_lod0.msh",
+							name = "shfimmns_puffer_platten",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_seilhaken_lod0.msh",
-							name = "jay_mesh_shfimmns_seilhaken",
+							mesh = "msh/shfimmns_seilhaken_lod0.msh",
+							name = "shfimmns_seilhaken",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_hebel_lod0.msh",
-							name = "jay_mesh_shfimmns_hebel",
+							mesh = "msh/shfimmns_hebel_lod0.msh",
+							name = "shfimmns_hebel",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_stangen_lod0.msh",
-							name = "jay_mesh_shfimmns_stangen",
+							mesh = "msh/shfimmns_stangen_lod0.msh",
+							name = "shfimmns_stangen",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_offner_klein_lod0.msh",
-							name = "jay_mesh_shfimmns_offner_klein",
+							mesh = "msh/shfimmns_offner_klein_lod0.msh",
+							name = "shfimmns_offner_klein",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_schiene_lod0.msh",
-							name = "jay_mesh_shfimmns_schiene",
+							mesh = "msh/shfimmns_schiene_lod0.msh",
+							name = "shfimmns_schiene",
 							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, -0.039999999105930328369140625, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_accecs_lod0.msh",
-							name = "jay_mesh_shfimmns_accecs",
+							mesh = "msh/shfimmns_accecs_lod0.msh",
+							name = "shfimmns_accecs",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_seilOesen_lod0.msh",
-							name = "jay_mesh_shfimmns_seilOesen",
+							mesh = "msh/shfimmns_seilOesen_lod0.msh",
+							name = "shfimmns_seilOesen",
 							transf = { 0.9900000095367431640625, 0, 0, 0, -0, 0.9900000095367431640625, 0, 0, 0, -0, 0.86000001430511474609375, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_innen_lod0.msh",
-							name = "jay_mesh_shfimmns_innen",
+							mesh = "msh/shfimmns_innen_lod0.msh",
+							name = "shfimmns_innen",
 							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, -0.20000000298023223876953125, 1, },
 						},
 						{ 
@@ -514,33 +514,33 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube01.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube01.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube01.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube01.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_haube01_lod0.msh",
-							name = "jay_mesh_shfimmns_haube01",
+							mesh = "msh/shfimmns_haube01_lod0.msh",
+							name = "shfimmns_haube01",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -548,63 +548,63 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube02.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube02.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube02.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube02.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_haube02_lod0.msh",
-							name = "jay_mesh_shfimmns_haube02",
+							mesh = "msh/shfimmns_haube02_lod0.msh",
+							name = "shfimmns_haube02",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_haube03_lod0.msh",
-							name = "jay_mesh_shfimmns_haube03",
+							mesh = "msh/shfimmns_haube03_lod0.msh",
+							name = "shfimmns_haube03",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_offner_gross_lod0.msh",
-							name = "jay_mesh_shfimmns_offner_gross",
+							mesh = "msh/shfimmns_offner_gross_lod0.msh",
+							name = "shfimmns_offner_gross",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_daten_raster_lod0.msh",
-							name = "jay_mesh_shfimmns_daten_raster",
+							mesh = "msh/shfimmns_daten_raster_lod0.msh",
+							name = "shfimmns_daten_raster",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_front_gross_lod0.msh",
-							name = "jay_mesh_shfimmns_front_gross",
+							mesh = "msh/shfimmns_front_gross_lod0.msh",
+							name = "shfimmns_front_gross",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_schlauch_lod0.msh",
-							name = "jay_mesh_shfimmns_schlauch",
+							mesh = "msh/shfimmns_schlauch_lod0.msh",
+							name = "shfimmns_schlauch",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -612,33 +612,33 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_schildFerry.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_schildFerry.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_schildFerry.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_schildFerry.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_schildFerry.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_schildFerry.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_schildFerry.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_schildFerry.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_schildFerry_lod0.msh",
-							name = "jay_mesh_shfimmns_schildFerry",
+							mesh = "msh/shfimmns_schildFerry_lod0.msh",
+							name = "shfimmns_schildFerry",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -745,78 +745,44 @@ return {
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_untersatz_lod1.msh",
-							name = "jay_mesh_shfimmns_untersatz",
+							mesh = "msh/shfimmns_untersatz_lod1.msh",
+							name = "shfimmns_untersatz",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_front_klein_lod1.msh",
-							name = "jay_mesh_shfimmns_front_klein",
+							mesh = "msh/shfimmns_front_klein_lod1.msh",
+							name = "shfimmns_front_klein",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_front_unten_lod1.msh",
-							name = "jay_mesh_shfimmns_front_unten",
+							mesh = "msh/shfimmns_front_unten_lod1.msh",
+							name = "shfimmns_front_unten",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_puffer_lod1.msh",
-							name = "jay_mesh_shfimmns_puffer",
+							mesh = "msh/shfimmns_puffer_lod1.msh",
+							name = "shfimmns_puffer",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_schiene_lod1.msh",
-							name = "jay_mesh_shfimmns_schiene",
+							mesh = "msh/shfimmns_schiene_lod1.msh",
+							name = "shfimmns_schiene",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_platte_lod1.msh",
-							name = "jay_mesh_shfimmns_platte",
+							mesh = "msh/shfimmns_platte_lod1.msh",
+							name = "shfimmns_platte",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_innen_lod1.msh",
-							name = "jay_mesh_shfimmns_innen",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							animations = { 
-								close_doors_left = { 
-									forward = false,
-									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube01.ani",
-									},
-									type = "FILE_REF",
-								},
-								close_doors_right = { 
-									forward = false,
-									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube01.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_doors_left = { 
-									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube01.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_doors_right = { 
-									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube01.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_haube01_lod1.msh",
-							name = "jay_mesh_shfimmns_haube01",
+							mesh = "msh/shfimmns_innen_lod1.msh",
+							name = "shfimmns_innen",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -824,51 +790,33 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube02.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube02.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube02.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube02.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_haube02_lod1.msh",
-							name = "jay_mesh_shfimmns_haube02",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_haube03_lod1.msh",
-							name = "jay_mesh_shfimmns_haube03",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_front_gross_lod1.msh",
-							name = "jay_mesh_shfimmns_front_gross",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_untersatz_lod1.msh",
-							name = "jay_mesh_shfimmns_untersatz",
+							mesh = "msh/shfimmns_haube01_lod1.msh",
+							name = "shfimmns_haube01",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -876,33 +824,85 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_schildFerry.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_schildFerry.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_schildFerry.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_schildFerry.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_schildFerry_lod0.msh",
-							name = "jay_mesh_shfimmns_schildFerry",
+							mesh = "msh/shfimmns_haube02_lod1.msh",
+							name = "shfimmns_haube02",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
+							mesh = "msh/shfimmns_haube03_lod1.msh",
+							name = "shfimmns_haube03",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
+							mesh = "msh/shfimmns_front_gross_lod1.msh",
+							name = "shfimmns_front_gross",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
+							mesh = "msh/shfimmns_untersatz_lod1.msh",
+							name = "shfimmns_untersatz",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_doors_left = { 
+									forward = false,
+									params = { 
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_schildFerry.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = { 
+									forward = false,
+									params = { 
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_schildFerry.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_schildFerry.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_schildFerry.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
+							mesh = "msh/shfimmns_schildFerry_lod0.msh",
+							name = "shfimmns_schildFerry",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -1009,60 +1009,26 @@ return {
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_untersatz_lod2.msh",
-							name = "jay_mesh_shfimmns_untersatz",
+							mesh = "msh/shfimmns_untersatz_lod2.msh",
+							name = "shfimmns_untersatz",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_front_klein_lod2.msh",
-							name = "jay_mesh_shfimmns_front_klein",
+							mesh = "msh/shfimmns_front_klein_lod2.msh",
+							name = "shfimmns_front_klein",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_platte_lod2.msh",
-							name = "jay_mesh_shfimmns_platte",
+							mesh = "msh/shfimmns_platte_lod2.msh",
+							name = "shfimmns_platte",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_innen_lod2.msh",
-							name = "jay_mesh_shfimmns_innen",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							animations = { 
-								close_doors_left = { 
-									forward = false,
-									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube01.ani",
-									},
-									type = "FILE_REF",
-								},
-								close_doors_right = { 
-									forward = false,
-									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube01.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_doors_left = { 
-									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube01.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_doors_right = { 
-									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube01.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_haube01_lod2.msh",
-							name = "jay_mesh_shfimmns_haube01",
+							mesh = "msh/shfimmns_innen_lod2.msh",
+							name = "shfimmns_innen",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -1070,51 +1036,85 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube02.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube02.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube02.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_haube02.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_haube02_lod2.msh",
-							name = "jay_mesh_shfimmns_haube02",
+							mesh = "msh/shfimmns_haube01_lod2.msh",
+							name = "shfimmns_haube01",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_doors_left = { 
+									forward = false,
+									params = { 
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube02.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = { 
+									forward = false,
+									params = { 
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube02.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube02.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_haube02.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
+							mesh = "msh/shfimmns_haube02_lod2.msh",
+							name = "shfimmns_haube02",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_haube03_lod2.msh",
-							name = "jay_mesh_shfimmns_haube03",
+							mesh = "msh/shfimmns_haube03_lod2.msh",
+							name = "shfimmns_haube03",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_front_gross_lod2.msh",
-							name = "jay_mesh_shfimmns_front_gross",
+							mesh = "msh/shfimmns_front_gross_lod2.msh",
+							name = "shfimmns_front_gross",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_untersatz_lod2.msh",
-							name = "jay_mesh_shfimmns_untersatz",
+							mesh = "msh/shfimmns_untersatz_lod2.msh",
+							name = "shfimmns_untersatz",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -1209,26 +1209,26 @@ return {
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_untersatz_lod3.msh",
-							name = "jay_mesh_shfimmns_untersatz",
+							mesh = "msh/shfimmns_untersatz_lod3.msh",
+							name = "shfimmns_untersatz",
 							transf = { 1.2447431087493896484375, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0.940132796764373779296875, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_front_klein_lod3.msh",
-							name = "jay_mesh_shfimmns_front_klein",
+							mesh = "msh/shfimmns_front_klein_lod3.msh",
+							name = "shfimmns_front_klein",
 							transf = { 1.2447431087493896484375, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0.940132796764373779296875, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_front_gross_lod3.msh",
-							name = "jay_mesh_shfimmns_front_gross",
+							mesh = "msh/shfimmns_front_gross_lod3.msh",
+							name = "shfimmns_front_gross",
 							transf = { 1.2447431087493896484375, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0.940132796764373779296875, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_haubeLOW_lod3.msh",
-							name = "jay_mesh_shfimmns_haubeLOW",
+							mesh = "msh/shfimmns_haubeLOW_lod3.msh",
+							name = "shfimmns_haubeLOW",
 							transf = { 1.2447431087493896484375, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0.940132796764373779296875, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -1236,33 +1236,33 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_schildFerry.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_schildFerry.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_schildFerry.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_schildFerry.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_schildFerry.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_schildFerry.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/shfimms/Scene/jay_mesh_shfimmns_schildFerry.ani",
+										id = "/vehicle/waggon/shfimms/Scene/shfimmns_schildFerry.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
 							materials = { "mat/sfhimmns_vtgFerry79.mtl", },
-							mesh = "msh/jay_mesh_shfimmns_schildFerry_lod0.msh",
-							name = "jay_mesh_shfimmns_schildFerry",
+							mesh = "msh/shfimmns_schildFerry_lod0.msh",
+							name = "shfimmns_schildFerry",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
