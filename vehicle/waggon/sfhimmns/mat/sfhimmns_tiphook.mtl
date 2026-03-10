@@ -1,0 +1,118 @@
+function data()
+return { 
+		__version = "",
+		order = 0,
+		params = { 
+			color_blend = { 
+				fragmentProperties = {
+					{ 
+						albedoScales = { 0, 0, },
+						colors = {
+							{ 0, 0, 0, },
+							{ -1, -1, -1, },
+						},
+					},
+				},
+			},
+			dirt_rust = { 
+				fragmentProperties = {
+					{ 
+						dirtColor = { 0.14901959896087646484375, 0.1254053413867950439453125, 0.088242985308170318603515625, },
+						dirtOpacity = 0.12999999523162841796875,
+						dirtScale = 1,
+						rustColor = { 0.31372547149658203125, 0.3056055009365081787109375, 0.273125708103179931640625, },
+						rustOpacity = 0.0599999986588954925537109375,
+						rustScale = 1,
+					},
+				},
+			},
+			light_receiver = { 
+				fragmentProperties = {
+					{ 
+						isLegacyMaterial = true,
+						lightMask = 2,
+					},
+				},
+			},
+			map_albedo = { 
+				fragmentSamplers = { 
+					albedoTex = { 
+						fileName = "/vehicle/shfimmns/mat/tex/shfimmns_tiphookvtg.dds",
+						type = "TWOD",
+						wrapS = "REPEAT",
+						wrapT = "REPEAT",
+					},
+				},
+			},
+			map_cblend_dirt_rust = { 
+				fragmentSamplers = { 
+					cblendDirtRustTex = { 
+						fileName = "/vehicle/shimmns/mat/tex/sfhimmns_dca.dds",
+						type = "TWOD",
+					},
+				},
+			},
+			map_dirt = { 
+				fragmentSamplers = { 
+					dirtTex = { 
+						fileName = "::/vehicle/shared/mat/tex/dirt_albedo.dds",
+						type = "TWOD",
+					},
+				},
+			},
+			map_dirt_normal = { 
+				fragmentSamplers = { 
+					dirtNormalTex = { 
+						fileName = "::/vehicle/shared/mat/tex/dirt_normal.dds",
+						redGreen = true,
+						type = "TWOD",
+					},
+				},
+			},
+			map_metal_gloss_ao = { 
+				fragmentSamplers = { 
+					metalGlossAoTex = { 
+						fileName = "/vehicle/shfimmns/mat/tex/shfimmns_mga.dds",
+						type = "TWOD",
+						wrapS = "REPEAT",
+						wrapT = "REPEAT",
+					},
+				},
+			},
+			map_normal = { 
+				fragmentSamplers = { 
+					normalTex = { 
+						fileName = "/vehicle/shfimmns/mat/tex/shfimmns_nrml.dds",
+						redGreen = true,
+						type = "TWOD",
+					},
+				},
+			},
+			map_rust = { 
+				fragmentSamplers = { 
+					rustTex = { 
+						fileName = "::/vehicle/shared/mat/tex/rust_albedo.dds",
+						type = "TWOD",
+					},
+				},
+			},
+			map_rust_normal = { 
+				fragmentSamplers = { 
+					rustNormalTex = { 
+						fileName = "::/vehicle/shared/mat/tex/rust_normal.dds",
+						redGreen = true,
+						type = "TWOD",
+					},
+				},
+			},
+			texcoord_scale = { 
+				fragmentProperties = {
+					{ 
+						texCoordScale = 1,
+					},
+				},
+			},
+		},
+		type = "PHYSICAL_NRML_MAP_CBLEND_DIRT",
+	}
+end

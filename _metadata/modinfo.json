@@ -1,0 +1,22 @@
+{
+    "name": "Shimmns/ Sfhimmns",
+    "summary": "This mod includes 29 different paint schemes for the Shimmns/Sfhimmns.",
+    "description": "Short four-axle bogie car with three hoods that can be pushed over each other, specially developed for the transport of heavy, weather-sensitive sheet metal rolls and standardized by the UIC, year of use from 1978. A similar, narrower variant was developed by LHB in 1979 for ferryboat transport and designated Sfhimmns.",
+    "localization" : {
+        "de": {
+            "name": "Shimmns/ Sfhimmns",
+            "summary": "In diesem Mod sind 29 verschiedene Lackierungen der Shimmns/ Sfhimmns enthalten.",
+            "description": "Kurzer vierachsiger Drehgestellwagen mit drei übereinanderschiebbaren Hauben speziell für den Transport schwerer, witterungsempfindlicher Blechrollen entwickelt und von der UIC standardisiert, Einsatzjahr ab 1978. Für den Fährbootverkehr wurde 1979 von LHB eine ähnliche, schmalere Variante entwickelt und als Sfhimmns bezeichnet."
+        }
+    },
+    "authors": [
+        {
+            "name": "Modwerkstatt",
+            "role": "CREATOR"
+        }
+    ],
+    "tags": [
+        "Wagon"
+    ],
+    "url": "https://modwerkstatt.com/downloads/tpf3/shimmns"
+}
