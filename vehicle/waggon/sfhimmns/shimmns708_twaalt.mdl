@@ -108,7 +108,7 @@ return {
 								{
 									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
 									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/dg_ba_645_lod0.msh",
-									name = "db_ba_645",
+									name = "drehgestell",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{

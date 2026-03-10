@@ -105,23 +105,23 @@ return {
 						},
 						{ 
 							children = {
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod0.msh",
-									name = "dg_achse_920mm_lod0_4",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
-								},
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod0.msh",
-									name = "dg_achse_920mm_lod0_5",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
-								},
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/dg_ba_645/msh/dg_ba_645_lod0.msh",
-									name = "dg_ba_645_lod0_6",
+								{
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/dg_ba_645_lod0.msh",
+									name = "drehgestell",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+								},
+								{
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
 								},
 							},
 							name = "DG_vorne",
@@ -129,23 +129,23 @@ return {
 						},
 						{ 
 							children = {
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod0.msh",
-									name = "dg_achse_920mm_lod0_8",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
-								},
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod0.msh",
-									name = "dg_achse_920mm_lod0_9",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
-								},
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/dg_ba_645/msh/dg_ba_645_lod0.msh",
-									name = "dg_ba_645_lod0_10",
+								{
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/dg_ba_645_lod0.msh",
+									name = "drehgestell2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+								},
+								{
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
 								},
 							},
 							name = "DG_hinten",
@@ -170,7 +170,7 @@ return {
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
 							mesh = "msh/shimmns708_kupplung_lod0.msh",
 							name = "shimmns708_kupplung",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -344,33 +344,33 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/shimmns708_platteAnimModern.ani",
+										id = "ani/shimmns708_platte_anim_modern.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/shimmns708_platteAnimModern.ani",
+										id = "ani/shimmns708_platte_anim_modern.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/shimmns708_platteAnimModern.ani",
+										id = "ani/shimmns708_platte_anim_modern.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/shimmns708_platteAnimModern.ani",
+										id = "ani/shimmns708_platte_anim_modern.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
 							materials = { "mat/shimmns708_db3.mtl", },
-							mesh = "msh/shimmns708_platteAnimModern_lod0.msh",
-							name = "shimmns708_platteAnimModern",
+							mesh = "msh/shimmns708_platte_anim_modern_lod0.msh",
+							name = "shimmns708_platte_anim_modern",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -383,462 +383,6 @@ return {
 			{ 
 				node = { 
 					children = {
-						{ 
-							animations = { 
-								back_forward_parts_off = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
-									},
-									type = "FILE_REF",
-								},
-								back_forward_parts_on = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
-							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
-							name = "taillights_fwd",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.5, 0.92, 1.59, 1, },
-						},
-						{ 
-							animations = { 
-								back_forward_parts_off = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
-									},
-									type = "FILE_REF",
-								},
-								back_forward_parts_on = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
-							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
-							name = "taillights_fwd",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.5, -0.92, 1.59, 1, },
-						},
-						{ 
-							animations = { 
-								back_backward_parts_off = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
-									},
-									type = "FILE_REF",
-								},
-								back_backward_parts_on = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
-							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
-							name = "taillights_bwd",
-							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.5, 0.92, 1.59, 1, },
-						},
-						{ 
-							animations = { 
-								back_backward_parts_off = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
-									},
-									type = "FILE_REF",
-								},
-								back_backward_parts_on = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
-							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
-							name = "taillights_bwd",
-							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.5, -0.92, 1.59, 1, },
-						},
-						{ 
-							children = {
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod1.msh",
-									name = "dg_achse_920mm_lod1_4",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
-								},
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod1.msh",
-									name = "dg_achse_920mm_lod1_5",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
-								},
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/dg_ba_645/msh/dg_ba_645_lod1.msh",
-									name = "dg_ba_645_lod1_6",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-								},
-							},
-							name = "DG_vorne",
-							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 3.599999904632568359375, 0, 0, 1, },
-						},
-						{ 
-							children = {
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod1.msh",
-									name = "dg_achse_920mm_lod1_8",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
-								},
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod1.msh",
-									name = "dg_achse_920mm_lod1_9",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
-								},
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/dg_ba_645/msh/dg_ba_645_lod1.msh",
-									name = "dg_ba_645_lod1_10",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-								},
-							},
-							name = "DG_hinten",
-							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -3.599999904632568359375, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_db3.mtl", },
-							mesh = "msh/shimmns708_untersatz_lod0.msh",
-							name = "shimmns708_untersatz",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_db3.mtl", },
-							mesh = "msh/shimmns708_front_klein_lod0.msh",
-							name = "shimmns708_front_klein",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_db3.mtl", },
-							mesh = "msh/shimmns708_front_unten_lod0.msh",
-							name = "shimmns708_front_unten",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-							mesh = "msh/shimmns708_kupplung_lod0.msh",
-							name = "shimmns708_kupplung",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_db3.mtl", },
-							mesh = "msh/shimmns708_puffer_lod0.msh",
-							name = "shimmns708_puffer",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_db3.mtl", },
-							mesh = "msh/shimmns708_puffer_platten_lod0.msh",
-							name = "shimmns708_puffer_platten",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_db3.mtl", },
-							mesh = "msh/shimmns708_seilhaken_lod0.msh",
-							name = "shimmns708_seilhaken",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_db3.mtl", },
-							mesh = "msh/shimmns708_hebel_lod0.msh",
-							name = "shimmns708_hebel",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_db3.mtl", },
-							mesh = "msh/shimmns708_front_stuff_lod0.msh",
-							name = "shimmns708_front_stuff",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_db3.mtl", },
-							mesh = "msh/shimmns708_stangen_lod0.msh",
-							name = "shimmns708_stangen",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_db3.mtl", },
-							mesh = "msh/shimmns708_offner_klein_lod0.msh",
-							name = "shimmns708_offner_klein",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_db3.mtl", },
-							mesh = "msh/shimmns708_schiene_lod0.msh",
-							name = "shimmns708_schiene",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_db3.mtl", },
-							mesh = "msh/shimmns708_platte_lod0.msh",
-							name = "shimmns708_platte",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_db3.mtl", },
-							mesh = "msh/shimmns708_accecs_lod0.msh",
-							name = "shimmns708_accecs",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_db3.mtl", },
-							mesh = "msh/shimmns708_innen_lod1.msh",
-							name = "shimmns708_innen",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							animations = { 
-								close_doors_left = { 
-									forward = false,
-									params = { 
-										id = "ani/shimmns708_haube01.ani",
-									},
-									type = "FILE_REF",
-								},
-								close_doors_right = { 
-									forward = false,
-									params = { 
-										id = "ani/shimmns708_haube01.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_doors_left = { 
-									params = { 
-										id = "ani/shimmns708_haube01.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_doors_right = { 
-									params = { 
-										id = "ani/shimmns708_haube01.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mat/shimmns708_db3.mtl", },
-							mesh = "msh/shimmns708_haube01_lod0.msh",
-							name = "shimmns708_haube01",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							animations = { 
-								close_doors_left = { 
-									forward = false,
-									params = { 
-										id = "ani/shimmns708_haube02.ani",
-									},
-									type = "FILE_REF",
-								},
-								close_doors_right = { 
-									forward = false,
-									params = { 
-										id = "ani/shimmns708_haube02.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_doors_left = { 
-									params = { 
-										id = "ani/shimmns708_haube02.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_doors_right = { 
-									params = { 
-										id = "ani/shimmns708_haube02.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mat/shimmns708_db3.mtl", },
-							mesh = "msh/shimmns708_haube02_lod0.msh",
-							name = "shimmns708_haube02",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_db3.mtl", },
-							mesh = "msh/shimmns708_haube03_lod0.msh",
-							name = "shimmns708_haube03",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_db3.mtl", },
-							mesh = "msh/shimmns708_offner_gross_lod0.msh",
-							name = "shimmns708_offner_gross",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_db3.mtl", },
-							mesh = "msh/shimmns708_daten_raster_lod0.msh",
-							name = "shimmns708_daten_raster",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_db3.mtl", },
-							mesh = "msh/shimmns708_front_gross_lod0.msh",
-							name = "shimmns708_front_gross",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_db3.mtl", },
-							mesh = "msh/shimmns708_platteModern_lod0.msh",
-							name = "shimmns708_platteDB",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							animations = { 
-								close_doors_left = { 
-									forward = false,
-									params = { 
-										id = "ani/shimmns708_platteAnimModern.ani",
-									},
-									type = "FILE_REF",
-								},
-								close_doors_right = { 
-									forward = false,
-									params = { 
-										id = "ani/shimmns708_platteAnimModern.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_doors_left = { 
-									params = { 
-										id = "ani/shimmns708_platteAnimModern.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_doors_right = { 
-									params = { 
-										id = "ani/shimmns708_platteAnimModern.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mat/shimmns708_db3.mtl", },
-							mesh = "msh/shimmns708_platteAnimModern_lod0.msh",
-							name = "shimmns708_platteAnimModern",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-					},
-					name = "RootNode",
-					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-				},
-				visibleFrom = 150,
-				visibleTo = 400,
-			},
-			{ 
-				node = { 
-					children = {
-						{ 
-							animations = { 
-								back_forward_parts_off = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
-									},
-									type = "FILE_REF",
-								},
-								back_forward_parts_on = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
-							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
-							name = "taillights_fwd",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.5, 0.92, 1.59, 1, },
-						},
-						{ 
-							animations = { 
-								back_forward_parts_off = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
-									},
-									type = "FILE_REF",
-								},
-								back_forward_parts_on = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
-							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
-							name = "taillights_fwd",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.5, -0.92, 1.59, 1, },
-						},
-						{ 
-							animations = { 
-								back_backward_parts_off = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
-									},
-									type = "FILE_REF",
-								},
-								back_backward_parts_on = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
-							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
-							name = "taillights_bwd",
-							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.5, 0.92, 1.59, 1, },
-						},
-						{ 
-							animations = { 
-								back_backward_parts_off = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
-									},
-									type = "FILE_REF",
-								},
-								back_backward_parts_on = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
-							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
-							name = "taillights_bwd",
-							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.5, -0.92, 1.59, 1, },
-						},
 						{ 
 							children = {
 								{
@@ -1026,133 +570,45 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/shimmns708_platteAnimModern.ani",
+										id = "ani/shimmns708_platte_anim_modern.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/shimmns708_platteAnimModern.ani",
+										id = "ani/shimmns708_platte_anim_modern.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/shimmns708_platteAnimModern.ani",
+										id = "ani/shimmns708_platte_anim_modern.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/shimmns708_platteAnimModern.ani",
+										id = "ani/shimmns708_platte_anim_modern.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
 							materials = { "mat/shimmns708_db3.mtl", },
-							mesh = "msh/shimmns708_platteAnimModern_lod0.msh",
-							name = "shimmns708_platteAnimModern",
+							mesh = "msh/shimmns708_platte_anim_modern_lod0.msh",
+							name = "shimmns708_platte_anim_modern",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
 					name = "RootNode",
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				},
-				visibleFrom = 400,
-				visibleTo = 900,
+				visibleFrom = 150,
+				visibleTo = 400,
 			},
 			{ 
 				node = { 
 					children = {
-						{ 
-							animations = { 
-								back_forward_parts_off = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
-									},
-									type = "FILE_REF",
-								},
-								back_forward_parts_on = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
-							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
-							name = "taillights_fwd",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.5, 0.92, 1.59, 1, },
-						},
-						{ 
-							animations = { 
-								back_forward_parts_off = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
-									},
-									type = "FILE_REF",
-								},
-								back_forward_parts_on = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
-							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
-							name = "taillights_fwd",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.5, -0.92, 1.59, 1, },
-						},
-						{ 
-							animations = { 
-								back_backward_parts_off = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
-									},
-									type = "FILE_REF",
-								},
-								back_backward_parts_on = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
-							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
-							name = "taillights_bwd",
-							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.5, 0.92, 1.59, 1, },
-						},
-						{ 
-							animations = { 
-								back_backward_parts_off = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
-									},
-									type = "FILE_REF",
-								},
-								back_backward_parts_on = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
-							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
-							name = "taillights_bwd",
-							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.5, -0.92, 1.59, 1, },
-						},
 						{ 
 							children = {
 								{
@@ -1322,33 +778,33 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/shimmns708_platteAnimModern.ani",
+										id = "ani/shimmns708_platte_anim_modern.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/shimmns708_platteAnimModern.ani",
+										id = "ani/shimmns708_platte_anim_modern.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/shimmns708_platteAnimModern.ani",
+										id = "ani/shimmns708_platte_anim_modern.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/shimmns708_platteAnimModern.ani",
+										id = "ani/shimmns708_platte_anim_modern.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
 							materials = { "mat/shimmns708_db3.mtl", },
-							mesh = "msh/shimmns708_platteAnimModern_lod0.msh",
-							name = "shimmns708_platteAnimModern",
+							mesh = "msh/shimmns708_platte_anim_modern_lod0.msh",
+							name = "shimmns708_platte_anim_modern",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -1361,86 +817,6 @@ return {
 			{ 
 				node = { 
 					children = {
-						{ 
-							animations = { 
-								back_forward_parts_off = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
-									},
-									type = "FILE_REF",
-								},
-								back_forward_parts_on = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							children = {
-								{ 
-									animations = { 
-										back_forward_parts_off = { 
-											interpolation = "NEAREST",
-											params = { 
-												id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
-											},
-											type = "FILE_REF",
-										},
-										back_forward_parts_on = { 
-											interpolation = "NEAREST",
-											params = { 
-												id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
-											},
-											type = "FILE_REF",
-										},
-									},
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod2.msh",
-									name = "dg_achse_920mm_lod2_2",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
-								},
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod2.msh",
-									name = "dg_achse_920mm_lod2_3",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
-								},
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/dg_ba_645/msh/dg_ba_645_lod2.msh",
-									name = "dg_ba_645_lod2_4",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-								},
-							},
-							name = "DG_vorne",
-							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 3.599999904632568359375, 0, 0, 1, },
-						},
-						{ 
-							children = {
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod2.msh",
-									name = "dg_achse_920mm_lod2_6",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
-								},
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod2.msh",
-									name = "dg_achse_920mm_lod2_7",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
-								},
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/dg_ba_645/msh/dg_ba_645_lod2.msh",
-									name = "dg_ba_645_lod2_8",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-								},
-							},
-							name = "DG_hinten",
-							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -3.599999904632568359375, 0, 0, 1, },
-						},
 						{ 
 							materials = { "mat/shimmns708_db3.mtl", },
 							mesh = "msh/shimmns708_untersatz_lod3.msh",

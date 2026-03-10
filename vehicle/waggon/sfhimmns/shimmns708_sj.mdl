@@ -105,23 +105,23 @@ return {
 						},
 						{ 
 							children = {
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod0.msh",
-									name = "dg_achse_920mm_lod0_4",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
-								},
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod0.msh",
-									name = "dg_achse_920mm_lod0_5",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
-								},
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/dg_ba_645/msh/dg_ba_645_lod0.msh",
-									name = "dg_ba_645_lod0_6",
+								{
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/dg_ba_645_lod0.msh",
+									name = "drehgestell",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+								},
+								{
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
 								},
 							},
 							name = "DG_vorne",
@@ -129,23 +129,23 @@ return {
 						},
 						{ 
 							children = {
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod0.msh",
-									name = "dg_achse_920mm_lod0_8",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
-								},
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod0.msh",
-									name = "dg_achse_920mm_lod0_9",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
-								},
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/dg_ba_645/msh/dg_ba_645_lod0.msh",
-									name = "dg_ba_645_lod0_10",
+								{
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/dg_ba_645_lod0.msh",
+									name = "drehgestell2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+								},
+								{
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
 								},
 							},
 							name = "DG_hinten",
@@ -170,7 +170,7 @@ return {
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_645.mtl", },
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
 							mesh = "msh/shimmns708_kupplung_lod0.msh",
 							name = "shimmns708_kupplung",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
