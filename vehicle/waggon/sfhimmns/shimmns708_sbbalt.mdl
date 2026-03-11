@@ -335,8 +335,8 @@ return {
 						},
 						{ 
 							materials = { "mat/shimmns708_sbbAlt.mtl", },
-							mesh = "msh/shimmns708_platteDB_lod0.msh",
-							name = "shimmns708_platteDB",
+							mesh = "msh/shimmns708_platte_db_lod0.msh",
+							name = "shimmns708_platte_db",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -344,33 +344,33 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/shimmns708_platteAnimDB.ani",
+										id = "ani/shimmns708_platte_anim_db.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/shimmns708_platteAnimDB.ani",
+										id = "ani/shimmns708_platte_anim_db.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/shimmns708_platteAnimDB.ani",
+										id = "ani/shimmns708_platte_anim_db.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/shimmns708_platteAnimDB.ani",
+										id = "ani/shimmns708_platte_anim_db.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
 							materials = { "mat/shimmns708_sbbAlt.mtl", },
-							mesh = "msh/shimmns708_platteAnimDB_lod0.msh",
-							name = "shimmns708_platteAnimDB",
+							mesh = "msh/shimmns708_platte_anim_db_lod0.msh",
+							name = "shimmns708_platte_anim_db",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -385,49 +385,50 @@ return {
 					children = {
 						{ 
 							children = {
+								{
 									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod2.msh",
-									name = "dg_achse_920mm_lod2_2",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
-								},
-								{ 
-									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod2.msh",
-									name = "dg_achse_920mm_lod2_3",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
-								},
-								{ 
-									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/dg_ba_645/msh/dg_ba_645_lod1.msh",
-									name = "dg_ba_645_lod1_4",
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/dg_ba_645_lod2.msh",
+									name = "drehgestell",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
+								{
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod2.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+								},
+								{
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod2.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+								},
 							},
-							name = "DG_vorne",
+							name = "dg_vorne",
 							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 3.599999904632568359375, 0, 0, 1, },
 						},
 						{ 
 							children = {
-								{ 
+								{
 									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod2.msh",
-									name = "dg_achse_920mm_lod2_6",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
-								},
-								{ 
-									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod2.msh",
-									name = "dg_achse_920mm_lod2_7",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
-								},
-								{ 
-									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/dg_ba_645/msh/dg_ba_645_lod1.msh",
-									name = "dg_ba_645_lod1_8",
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/dg_ba_645_lod2.msh",
+									name = "drehgestell2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
+								{
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod2.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+								},
+								{
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod2.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+								},
 							},
-							name = "DG_hinten",
+							name = "dg_hinten",
 							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -3.599999904632568359375, 0, 0, 1, },
 						},
 						{ 
@@ -560,8 +561,8 @@ return {
 						},
 						{ 
 							materials = { "mat/shimmns708_sbbAlt.mtl", },
-							mesh = "msh/shimmns708_platteDB_lod1.msh",
-							name = "shimmns708_platteDB",
+							mesh = "msh/shimmns708_platte_db_lod1.msh",
+							name = "shimmns708_platte_db",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -569,33 +570,33 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/shimmns708_platteAnimDB.ani",
+										id = "ani/shimmns708_platte_anim_db.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/shimmns708_platteAnimDB.ani",
+										id = "ani/shimmns708_platte_anim_db.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/shimmns708_platteAnimDB.ani",
+										id = "ani/shimmns708_platte_anim_db.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/shimmns708_platteAnimDB.ani",
+										id = "ani/shimmns708_platte_anim_db.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
 							materials = { "mat/shimmns708_sbbAlt.mtl", },
-							mesh = "msh/shimmns708_platteAnimDB_lod1.msh",
-							name = "shimmns708_platteAnimDB",
+							mesh = "msh/shimmns708_platte_anim_db_lod1.msh",
+							name = "shimmns708_platte_anim_db",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -768,8 +769,8 @@ return {
 						},
 						{ 
 							materials = { "mat/shimmns708_sbbAlt.mtl", },
-							mesh = "msh/shimmns708_platteDB_lod2.msh",
-							name = "shimmns708_platteDB",
+							mesh = "msh/shimmns708_platte_db_lod2.msh",
+							name = "shimmns708_platte_db",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -777,33 +778,33 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/shimmns708_platteAnimDB.ani",
+										id = "ani/shimmns708_platte_anim_db.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/shimmns708_platteAnimDB.ani",
+										id = "ani/shimmns708_platte_anim_db.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/shimmns708_platteAnimDB.ani",
+										id = "ani/shimmns708_platte_anim_db.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/shimmns708_platteAnimDB.ani",
+										id = "ani/shimmns708_platte_anim_db.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
 							materials = { "mat/shimmns708_sbbAlt.mtl", },
-							mesh = "msh/shimmns708_platteAnimDB_lod2.msh",
-							name = "shimmns708_platteAnimDB",
+							mesh = "msh/shimmns708_platte_anim_db_lod2.msh",
+							name = "shimmns708_platte_anim_db",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -884,7 +885,7 @@ return {
 				friction = 0.0199999995529651641845703125,
 				topSpeed = 33.299999237060546875,
 				weightEmpty = 23000,
-				weightMaxPayload = 0,
+				weightMaxPayload = 57000,
 			},
 			loadIndicator = { 
 				configs = { 
@@ -893,21 +894,6 @@ return {
 							configurations = {
 								{
 									{ },
-									{ 0, },
-									{ 0, 2, },
-									{ 0, 2, 4, },
-								},
-								{
-									{ },
-									{ 9, },
-									{ 9, 5, },
-									{ 9, 5, 6, },
-									{ 9, 5, 6, 7, },
-									{ 9, 5, 6, 7, 8, },
-								},
-								{
-									{ },
-									{ 10, },
 								},
 							},
 						},
@@ -921,29 +907,22 @@ return {
 			},
 			railVehicle = { 
 				config = { 
-					axles = { "dg_achse_920mm_lod0_4", "dg_achse_920mm_lod0_5", "dg_achse_920mm_lod0_8", "dg_achse_920mm_lod0_9", "dg_achse_920mm_lod1_4", "dg_achse_920mm_lod1_5", "dg_achse_920mm_lod1_8", "dg_achse_920mm_lod1_9", "dg_achse_920mm_lod2_2", "dg_achse_920mm_lod2_3", "dg_achse_920mm_lod2_6", "dg_achse_920mm_lod2_7", "dg_achse_920mm_lod2_4", "dg_achse_920mm_lod2_5", "dg_achse_920mm_lod2_8", "dg_achse_920mm_lod2_9", },
-					fakeBogies = {
-						{ },
-						{ },
-						{ },
-						{ },
-						{ },
-					},
+					axles = { "a1", "a2", "a3", "a4", },
+					fakeBogies = { },
 				},
 			},
 			soundConfig = { 
 				soundSet = { 
-					name = "/mw_schwer",
+					name = "mw_basis::/vehicle/waggon/mw_basis/sound/mw_schwer.snd",
 				},
 			},
 			transformatorConfig = { 
-				skipFromLod = 1,
+				skipFromLod = 3,
 				transformator = { 
 					name = "::/vehicle/train/shared/default_train.trf",
 				},
 			},
 			transportVehicle = { 
-				arrivalDelay = 3333,
 				carrier = "RAIL",
 				compartments = {
 					{ 
@@ -965,9 +944,8 @@ return {
 						},
 					},
 				},
-				departureDelay = 3333,
 				engineTags = { },
-				groupFileName = "/vehicle/waggon/shimmns708/shimmns708_menu.mdl",
+				groupFileName = "menu_shimmns708.mdl",
 				loadSpeed = 3,
 				tags = { "TRAIN", "ELECTRIC_TRAIN", },
 			},

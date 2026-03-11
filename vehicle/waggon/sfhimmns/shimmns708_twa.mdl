@@ -124,7 +124,7 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
 								},
 							},
-							name = "DG_vorne",
+							name = "dg_vorne",
 							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 3.599999904632568359375, 0, 0, 1, },
 						},
 						{ 
@@ -148,7 +148,7 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
 								},
 							},
-							name = "DG_hinten",
+							name = "dg_hinten",
 							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -3.599999904632568359375, 0, 0, 1, },
 						},
 						{ 
@@ -162,26 +162,26 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_firma_twa.ani",
+										id = "ani/shimmns708_platte_firma_twa.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_firma_twa.ani",
+										id = "ani/shimmns708_platte_firma_twa.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_firma_twa.ani",
+										id = "ani/shimmns708_platte_firma_twa.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_firma_twa.ani",
+										id = "ani/shimmns708_platte_firma_twa.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -286,26 +286,26 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
+										id = "ani/shimmns708_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
+										id = "ani/shimmns708_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
+										id = "ani/shimmns708_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
+										id = "ani/shimmns708_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -320,26 +320,26 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
+										id = "ani/shimmns708_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
+										id = "ani/shimmns708_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
+										id = "ani/shimmns708_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
+										id = "ani/shimmns708_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -376,13 +376,13 @@ return {
 						{ 
 							materials = { "mat/shimmns708_transwaggon.mtl", },
 							mesh = "msh/shimmns708_platte_twa_lod0.msh",
-							name = "jay_mesh_shimmns708_platteDB",
+							name = "jay_mesh_shimmns708_platte_db",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/shimmns708_transwaggon.mtl", },
 							mesh = "msh/shimmns708_platte_twa_lod0.msh",
-							name = "jay_mesh_shimmns708_platteDB",
+							name = "jay_mesh_shimmns708_platte_db",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -390,26 +390,26 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_twa.ani",
+										id = "ani/shimmns708_platte_anim_twa.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_twa.ani",
+										id = "ani/shimmns708_platte_anim_twa.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_twa.ani",
+										id = "ani/shimmns708_platte_anim_twa.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_twa.ani",
+										id = "ani/shimmns708_platte_anim_twa.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -433,326 +433,6 @@ return {
 							children = {
 								{
 									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
-									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/dg_ba_645_lod1.msh",
-									name = "drehgestell",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-								},
-								{
-									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
-									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod1.msh",
-									name = "a1",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
-								},
-								{
-									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
-									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod1.msh",
-									name = "a2",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
-								},
-							},
-							name = "DG_vorne",
-							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 3.599999904632568359375, 0, 0, 1, },
-						},
-						{ 
-							children = {
-								{
-									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
-									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/dg_ba_645_lod1.msh",
-									name = "drehgestell2",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-								},
-								{
-									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
-									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod1.msh",
-									name = "a3",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
-								},
-								{
-									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
-									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod1.msh",
-									name = "a4",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
-								},
-							},
-							name = "DG_hinten",
-							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -3.599999904632568359375, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_transwaggon.mtl", },
-							mesh = "msh/shimmns708_seil_oesen_twa_lod0.msh",
-							name = "jay_mesh_shimmns708_seil_oesen_twa",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							animations = { 
-								close_doors_left = { 
-									forward = false,
-									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_firma_twa.ani",
-									},
-									type = "FILE_REF",
-								},
-								close_doors_right = { 
-									forward = false,
-									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_firma_twa.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_doors_left = { 
-									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_firma_twa.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_doors_right = { 
-									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_firma_twa.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mat/shimmns708_transwaggon.mtl", },
-							mesh = "msh/shimmns708_platte_firma_twa_lod0.msh",
-							name = "jay_mesh_shimmns708_platte_twa",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_transwaggon.mtl", },
-							mesh = "msh/shimmns708_platte_twa_lod0.msh",
-							name = "jay_mesh_shimmns708_platteDB",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_transwaggon.mtl", },
-							mesh = "msh/shimmns708_untersatz_lod0.msh",
-							name = "jay_mesh_shimmns708_untersatz",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_transwaggon.mtl", },
-							mesh = "msh/shimmns708_front_klein_lod0.msh",
-							name = "jay_mesh_shimmns708_front_klein",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_transwaggon.mtl", },
-							mesh = "msh/shimmns708_front_unten_lod0.msh",
-							name = "jay_mesh_shimmns708_front_unten",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
-							mesh = "msh/shimmns708_kupplung_lod0.msh",
-							name = "jay_mesh_shimmns708_kupplung",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_transwaggon.mtl", },
-							mesh = "msh/shimmns708_puffer_lod0.msh",
-							name = "jay_mesh_shimmns708_puffer",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_transwaggon.mtl", },
-							mesh = "msh/shimmns708_puffer_platten_lod0.msh",
-							name = "jay_mesh_shimmns708_puffer_platten",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_transwaggon.mtl", },
-							mesh = "msh/shimmns708_seilhaken_lod0.msh",
-							name = "jay_mesh_shimmns708_seilhaken",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_transwaggon.mtl", },
-							mesh = "msh/shimmns708_hebel_lod0.msh",
-							name = "jay_mesh_shimmns708_hebel",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_transwaggon.mtl", },
-							mesh = "msh/shimmns708_front_stuff_lod0.msh",
-							name = "jay_mesh_shimmns708_front_stuff",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_transwaggon.mtl", },
-							mesh = "msh/shimmns708_stangen_lod0.msh",
-							name = "jay_mesh_shimmns708_stangen",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_transwaggon.mtl", },
-							mesh = "msh/shimmns708_offner_klein_lod0.msh",
-							name = "jay_mesh_shimmns708_offner_klein",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_transwaggon.mtl", },
-							mesh = "msh/shimmns708_schiene_lod0.msh",
-							name = "jay_mesh_shimmns708_schiene",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_transwaggon.mtl", },
-							mesh = "msh/shimmns708_platte_lod0.msh",
-							name = "jay_mesh_shimmns708_platte",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_transwaggon.mtl", },
-							mesh = "msh/shimmns708_accecs_lod0.msh",
-							name = "jay_mesh_shimmns708_accecs",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_transwaggon.mtl", },
-							mesh = "msh/shimmns708_innen_lod1.msh",
-							name = "jay_mesh_shimmns708_innen",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							animations = { 
-								close_doors_left = { 
-									forward = false,
-									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
-									},
-									type = "FILE_REF",
-								},
-								close_doors_right = { 
-									forward = false,
-									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_doors_left = { 
-									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_doors_right = { 
-									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mat/shimmns708_transwaggon.mtl", },
-							mesh = "msh/shimmns708_haube01_lod0.msh",
-							name = "jay_mesh_shimmns708_haube01",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							animations = { 
-								close_doors_left = { 
-									forward = false,
-									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
-									},
-									type = "FILE_REF",
-								},
-								close_doors_right = { 
-									forward = false,
-									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_doors_left = { 
-									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_doors_right = { 
-									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mat/shimmns708_transwaggon.mtl", },
-							mesh = "msh/shimmns708_haube02_lod0.msh",
-							name = "jay_mesh_shimmns708_haube02",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_transwaggon.mtl", },
-							mesh = "msh/shimmns708_haube03_lod0.msh",
-							name = "jay_mesh_shimmns708_haube03",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_transwaggon.mtl", },
-							mesh = "msh/shimmns708_offner_gross_lod0.msh",
-							name = "jay_mesh_shimmns708_offner_gross",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_transwaggon.mtl", },
-							mesh = "msh/shimmns708_daten_raster_lod0.msh",
-							name = "jay_mesh_shimmns708_daten_raster",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/shimmns708_transwaggon.mtl", },
-							mesh = "msh/shimmns708_front_gross_lod0.msh",
-							name = "jay_mesh_shimmns708_front_gross",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							animations = { 
-								close_doors_left = { 
-									forward = false,
-									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_twa.ani",
-									},
-									type = "FILE_REF",
-								},
-								close_doors_right = { 
-									forward = false,
-									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_twa.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_doors_left = { 
-									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_twa.ani",
-									},
-									type = "FILE_REF",
-								},
-								open_doors_right = { 
-									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_twa.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mat/shimmns708_transwaggon.mtl", },
-							mesh = "msh/shimmns708_platte_anim_twa_lod0.msh",
-							name = "jay_mesh_shimmns708_platte_anim_twa",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-					},
-					name = "RootNode",
-					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-				},
-				visibleFrom = 150,
-				visibleTo = 400,
-			},
-			{ 
-				node = { 
-					children = {
-						{ 
-							children = {
-								{
-									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
 									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/dg_ba_645_lod2.msh",
 									name = "drehgestell",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -770,7 +450,7 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
 								},
 							},
-							name = "DG_vorne",
+							name = "dg_vorne",
 							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 3.599999904632568359375, 0, 0, 1, },
 						},
 						{ 
@@ -794,7 +474,7 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
 								},
 							},
-							name = "DG_hinten",
+							name = "dg_hinten",
 							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -3.599999904632568359375, 0, 0, 1, },
 						},
 						{ 
@@ -802,26 +482,26 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_firma_twa.ani",
+										id = "ani/shimmns708_platte_firma_twa.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_firma_twa.ani",
+										id = "ani/shimmns708_platte_firma_twa.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_firma_twa.ani",
+										id = "ani/shimmns708_platte_firma_twa.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_firma_twa.ani",
+										id = "ani/shimmns708_platte_firma_twa.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -834,7 +514,7 @@ return {
 						{ 
 							materials = { "mat/shimmns708_transwaggon.mtl", },
 							mesh = "msh/shimmns708_platte_twa_lod0.msh",
-							name = "jay_mesh_shimmns708_platteDB",
+							name = "jay_mesh_shimmns708_platte_db",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -890,26 +570,26 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
+										id = "ani/shimmns708_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
+										id = "ani/shimmns708_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
+										id = "ani/shimmns708_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
+										id = "ani/shimmns708_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -924,26 +604,26 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
+										id = "ani/shimmns708_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
+										id = "ani/shimmns708_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
+										id = "ani/shimmns708_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
+										id = "ani/shimmns708_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -968,7 +648,7 @@ return {
 						{ 
 							materials = { "mat/shimmns708_transwaggon.mtl", },
 							mesh = "msh/shimmns708_platte_twa_lod0.msh",
-							name = "jay_mesh_shimmns708_platteDB",
+							name = "jay_mesh_shimmns708_platte_db",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -976,26 +656,26 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_twa.ani",
+										id = "ani/shimmns708_platte_anim_twa.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_twa.ani",
+										id = "ani/shimmns708_platte_anim_twa.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_twa.ani",
+										id = "ani/shimmns708_platte_anim_twa.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_twa.ani",
+										id = "ani/shimmns708_platte_anim_twa.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -1036,7 +716,7 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
 								},
 							},
-							name = "DG_vorne",
+							name = "dg_vorne",
 							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 3.599999904632568359375, 0, 0, 1, },
 						},
 						{ 
@@ -1060,7 +740,7 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
 								},
 							},
-							name = "DG_hinten",
+							name = "dg_hinten",
 							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -3.599999904632568359375, 0, 0, 1, },
 						},
 						{ 
@@ -1068,26 +748,26 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_firma_twa.ani",
+										id = "ani/shimmns708_platte_firma_twa.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_firma_twa.ani",
+										id = "ani/shimmns708_platte_firma_twa.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_firma_twa.ani",
+										id = "ani/shimmns708_platte_firma_twa.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_firma_twa.ani",
+										id = "ani/shimmns708_platte_firma_twa.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -1100,7 +780,7 @@ return {
 						{ 
 							materials = { "mat/shimmns708_transwaggon.mtl", },
 							mesh = "msh/shimmns708_platte_twa_lod0.msh",
-							name = "jay_mesh_shimmns708_platteDB",
+							name = "jay_mesh_shimmns708_platte_db",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -1138,26 +818,26 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
+										id = "ani/shimmns708_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
+										id = "ani/shimmns708_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
+										id = "ani/shimmns708_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
+										id = "ani/shimmns708_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -1172,26 +852,26 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
+										id = "ani/shimmns708_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
+										id = "ani/shimmns708_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
+										id = "ani/shimmns708_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
+										id = "ani/shimmns708_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -1216,7 +896,7 @@ return {
 						{ 
 							materials = { "mat/shimmns708_transwaggon.mtl", },
 							mesh = "msh/shimmns708_platte_twa_lod0.msh",
-							name = "jay_mesh_shimmns708_platteDB",
+							name = "jay_mesh_shimmns708_platte_db",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -1224,26 +904,26 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_twa.ani",
+										id = "ani/shimmns708_platte_anim_twa.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_twa.ani",
+										id = "ani/shimmns708_platte_anim_twa.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_twa.ani",
+										id = "ani/shimmns708_platte_anim_twa.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_twa.ani",
+										id = "ani/shimmns708_platte_anim_twa.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -1263,6 +943,7 @@ return {
 			{ 
 				node = { 
 					children = {
+						{ 
 							materials = { "mat/shimmns708_transwaggon.mtl", },
 							mesh = "msh/shimmns708_platte_firma_twa_lod0.msh",
 							name = "jay_mesh_shimmns708_platte_twa",
@@ -1336,7 +1017,7 @@ return {
 				friction = 0.0199999995529651641845703125,
 				topSpeed = 33.299999237060546875,
 				weightEmpty = 23000,
-				weightMaxPayload = 0,
+				weightMaxPayload = 57000,
 			},
 			loadIndicator = { 
 				configs = { 
@@ -1345,21 +1026,6 @@ return {
 							configurations = {
 								{
 									{ },
-									{ 0, },
-									{ 0, 2, },
-									{ 0, 2, 4, },
-								},
-								{
-									{ },
-									{ 9, },
-									{ 9, 5, },
-									{ 9, 5, 6, },
-									{ 9, 5, 6, 7, },
-									{ 9, 5, 6, 7, 8, },
-								},
-								{
-									{ },
-									{ 10, },
 								},
 							},
 						},
@@ -1379,7 +1045,7 @@ return {
 			},
 			soundConfig = { 
 				soundSet = { 
-					name = "/mw_schwer",
+					name = "mw_basis::/vehicle/waggon/mw_basis/sound/mw_schwer.snd",
 				},
 			},
 			transformatorConfig = { 
@@ -1411,7 +1077,7 @@ return {
 					},
 				},
 				engineTags = { },
-				groupFileName = "shimmns708_menu.mdl",
+				groupFileName = "menu_shimmns708.mdl",
 				loadSpeed = 3,
 				tags = { "TRAIN", "ELECTRIC_TRAIN", },
 			},

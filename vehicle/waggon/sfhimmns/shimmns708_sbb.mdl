@@ -252,26 +252,26 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
+										id = "ani/shimmns708_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
+										id = "ani/shimmns708_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
+										id = "ani/shimmns708_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
+										id = "ani/shimmns708_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -286,26 +286,26 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
+										id = "ani/shimmns708_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
+										id = "ani/shimmns708_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
+										id = "ani/shimmns708_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
+										id = "ani/shimmns708_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -350,26 +350,26 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_sbb.ani",
+										id = "ani/shimmns708_platte_anim_sbb.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_sbb.ani",
+										id = "ani/shimmns708_platte_anim_sbb.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_sbb.ani",
+										id = "ani/shimmns708_platte_anim_sbb.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_sbb.ani",
+										id = "ani/shimmns708_platte_anim_sbb.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -496,26 +496,26 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
+										id = "ani/shimmns708_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
+										id = "ani/shimmns708_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
+										id = "ani/shimmns708_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
+										id = "ani/shimmns708_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -530,26 +530,26 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
+										id = "ani/shimmns708_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
+										id = "ani/shimmns708_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
+										id = "ani/shimmns708_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
+										id = "ani/shimmns708_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -582,26 +582,26 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_sbb.ani",
+										id = "ani/shimmns708_platte_anim_sbb.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_sbb.ani",
+										id = "ani/shimmns708_platte_anim_sbb.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_sbb.ani",
+										id = "ani/shimmns708_platte_anim_sbb.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_sbb.ani",
+										id = "ani/shimmns708_platte_anim_sbb.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -710,26 +710,26 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
+										id = "ani/shimmns708_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
+										id = "ani/shimmns708_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
+										id = "ani/shimmns708_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube01.ani",
+										id = "ani/shimmns708_haube01.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -744,26 +744,26 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
+										id = "ani/shimmns708_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
+										id = "ani/shimmns708_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
+										id = "ani/shimmns708_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_haube02.ani",
+										id = "ani/shimmns708_haube02.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -796,26 +796,26 @@ return {
 								close_doors_left = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_sbb.ani",
+										id = "ani/shimmns708_platte_anim_sbb.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									forward = false,
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_sbb.ani",
+										id = "ani/shimmns708_platte_anim_sbb.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_sbb.ani",
+										id = "ani/shimmns708_platte_anim_sbb.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "ani/jay_mesh_shimmns708_platte_anim_sbb.ani",
+										id = "ani/shimmns708_platte_anim_sbb.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -903,7 +903,7 @@ return {
 				friction = 0.0199999995529651641845703125,
 				topSpeed = 33.299999237060546875,
 				weightEmpty = 23000,
-				weightMaxPayload = 0,
+				weightMaxPayload = 57000,
 			},
 			loadIndicator = { 
 				configs = { 
@@ -912,21 +912,6 @@ return {
 							configurations = {
 								{
 									{ },
-									{ 0, },
-									{ 0, 2, },
-									{ 0, 2, 4, },
-								},
-								{
-									{ },
-									{ 9, },
-									{ 9, 5, },
-									{ 9, 5, 6, },
-									{ 9, 5, 6, 7, },
-									{ 9, 5, 6, 7, 8, },
-								},
-								{
-									{ },
-									{ 10, },
 								},
 							},
 						},
@@ -940,13 +925,13 @@ return {
 			},
 			railVehicle = { 
 				config = { 
-					axles = { "jay_y25_mesh_w1", "jay_y25_mesh_w2", },
+					axles = { "a1", "a2", "a3", "a4", },
 					fakeBogies = { },
 				},
 			},
 			soundConfig = { 
 				soundSet = { 
-					name = "/mw_schwer",
+					name = "mw_basis::/vehicle/waggon/mw_basis/sound/mw_schwer.snd",
 				},
 			},
 			transformatorConfig = { 
@@ -978,7 +963,7 @@ return {
 					},
 				},
 				engineTags = { },
-				groupFileName = "shimmns708_menu.mdl",
+				groupFileName = "menu_shimmns708.mdl",
 				loadSpeed = 3,
 				tags = { "TRAIN", "ELECTRIC_TRAIN", },
 			},
