@@ -1151,7 +1151,7 @@ return {
 					},
 				},
 				engineTags = { },
-				groupFileName = "/vehicle/waggon/sfhimmns/sfhimmns_menu.mdl",
+				groupFileName = "menu_shfimmns.mdl",
 				loadSpeed = 2,
 				tags = { "TRAIN", "ELECTRIC_TRAIN", },
 			},
