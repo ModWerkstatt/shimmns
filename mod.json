@@ -12,6 +12,19 @@
                 "url": "https://modwerkstatt.com/downloads/tpf3/basismod"
             },
             "optional": false
+        },
+		{
+            "loadBefore": true,
+            "mod": {
+                "modId": "mw_beladung",
+                "revisionMax": -1,
+                "revisionMin": 1
+            },
+            "modInfo": {
+                "displayName": "ModWerkstatt loading",
+                "url": "https://modwerkstatt.com/downloads/tpf3/beladung"
+            },
+            "optional": false
         }
     ],
     "incompatibilities": null,
