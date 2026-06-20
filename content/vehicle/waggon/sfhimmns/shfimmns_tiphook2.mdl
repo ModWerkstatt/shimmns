@@ -524,7 +524,7 @@ return {
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				},
 				visibleFrom = 150,
-				visibleTo = 400,
+				visibleTo = 900,
 			},
 			{ 
 				node = { 

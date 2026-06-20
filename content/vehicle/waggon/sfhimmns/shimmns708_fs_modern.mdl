@@ -183,7 +183,7 @@ return {
 						},
 						{ 
 							materials = { "mat/shimmns708_fs_modern.mtl", },
-							mesh = "msh/shimmns708_pufferItalia_lod0.msh",
+							mesh = "msh/shimmns708_pufferitalia_lod0.msh",
 							name = "shimmns708_puffer",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -610,7 +610,7 @@ return {
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				},
 				visibleFrom = 150,
-				visibleTo = 400,
+				visibleTo = 900,
 			},
 			{ 
 				node = { 
